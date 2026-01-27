@@ -1,0 +1,58 @@
+{
+  "slang_decoder": [
+    {
+      "term": "我靠 (Wǒ kào)",
+      "frequency_rank": 1,
+      "reddit_source": "r/LearnChineseYourself",
+      "risk_level": "Medium (Friends only)",
+      "emotions": { "Surprise": 0.7, "Anger": 0.2, "Admiration": 0.1 },
+      "scenarios": [
+        { "context": "Gaming", "meaning": "Holy s***! (winning a match)" },
+        { "context": "Daily Life", "meaning": "Darn it! (missing a bus)" }
+      ]
+    },
+    {
+      "term": "正妹 (Zhèngmèi)",
+      "frequency_rank": 5,
+      "reddit_source": "r/LearnChineseYourself",
+      "risk_level": "Safe",
+      "emotions": { "Admiration": 0.9, "Interest": 0.1 },
+      "scenarios": [
+        { "context": "Social Media", "meaning": "A 10/10 pretty girl" }
+      ]
+    }
+  ],
+  "number_trainer": [
+    {
+      "id": "tel_001",
+      "scenario": "Delivery Driver Calling",
+      "difficulty": "Native (Fast)",
+      "answer": "13812345678",
+      "audio_mock_url": "https://example.com/audio/delivery_fast.mp3",
+      "common_traps": ["7 vs 1", "6 vs 9"]
+    }
+  ],
+  "semantic_precision": [
+    {
+      "pair": "喜爱 (Xǐ'ài) vs 喜欢 (Xǐhuan)",
+      "kd_score": 12,
+      "comparison": {
+        "formality": { "xiai": "High (Literary)", "xihuan": "Low (Daily)" },
+        "intensity": { "xiai": "Deep/Profound", "xihuan": "General" }
+      },
+      "reddit_consensus": "Use 'Xihuan' for 99% of daily conversations. 'Xiai' sounds like you're reading a poem."
+    }
+  ],
+  "chineseNumbers": {
+    "0": { "character": "零", "pinyin": "líng" },
+    "1": { "character": "一", "pinyin": "yāo (phone)" },
+    "2": { "character": "二", "pinyin": "èr" },
+    "3": { "character": "三", "pinyin": "sān" },
+    "4": { "character": "四", "pinyin": "sì" },
+    "5": { "character": "五", "pinyin": "wǔ" },
+    "6": { "character": "六", "pinyin": "liù" },
+    "7": { "character": "七", "pinyin": "qī" },
+    "8": { "character": "八", "pinyin": "bā" },
+    "9": { "character": "九", "pinyin": "jiǔ" }
+  }
+}
