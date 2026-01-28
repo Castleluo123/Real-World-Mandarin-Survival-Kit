@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import SocialContextDecoder from './components/SocialContextDecoder';
 import NumberListeningTrainer from './components/NumberListeningTrainer';
 import SemanticPrecisionAI from './components/SemanticPrecisionAI';
@@ -59,6 +60,9 @@ function App() {
           <p>Built for learners who want to sound natural, not textbook-perfect.</p>
         </div>
       </footer>
+
+      {/* Vercel Analytics */}
+      <Analytics />
     </div>
   );
 }
