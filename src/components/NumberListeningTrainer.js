@@ -7,7 +7,22 @@ const NumberListeningTrainer = () => {
   const [showResult, setShowResult] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
   const [score, setScore] = useState({ correct: 0, total: 0 });
+  const [playbackSpeed, setPlaybackSpeed] = useState('native'); // 'native' or 'slow'
   const audioContextRef = useRef(null);
+
+  // Chinese number pronunciation mapping (幺 for 1 in phone numbers)
+  const numberToChinese = {
+    '0': '零',
+    '1': '幺',
+    '2': '二',
+    '3': '三',
+    '4': '四',
+    '5': '五',
+    '6': '六',
+    '7': '七',
+    '8': '八',
+    '9': '九'
+  };
 
   // Load score from localStorage on mount
   useEffect(() => {
@@ -96,9 +111,58 @@ const NumberListeningTrainer = () => {
     startNewChallenge();
   }, [startNewChallenge]);
 
-  const playAudio = () => {
+  const playAudio = (speed = 'native') => {
+    if (isPlaying) return;
+
     setIsPlaying(true);
-    setTimeout(() => setIsPlaying(false), 3000);
+    setPlaybackSpeed(speed);
+
+    // Convert phone number to Chinese characters
+    const phoneNumber = currentChallenge.answer;
+    const chineseText = phoneNumber.split('').map(digit => numberToChinese[digit]).join('，');
+
+    // Use Web Speech API
+    if ('speechSynthesis' in window) {
+      // Cancel any ongoing speech
+      window.speechSynthesis.cancel();
+
+      const utterance = new SpeechSynthesisUtterance(chineseText);
+
+      // Try to find a Chinese voice
+      const voices = window.speechSynthesis.getVoices();
+      const chineseVoice = voices.find(voice =>
+        voice.lang.includes('zh') || voice.lang.includes('cmn')
+      );
+
+      if (chineseVoice) {
+        utterance.voice = chineseVoice;
+      }
+
+      utterance.lang = 'zh-CN';
+      utterance.rate = speed === 'native' ? 1.2 : 0.6; // Fast for native, slow for learner
+      utterance.pitch = 1;
+
+      utterance.onend = () => {
+        setIsPlaying(false);
+      };
+
+      utterance.onerror = () => {
+        setIsPlaying(false);
+      };
+
+      // Small delay to ensure voices are loaded
+      setTimeout(() => {
+        window.speechSynthesis.speak(utterance);
+      }, 100);
+
+      // Fallback timeout in case onend doesn't fire
+      setTimeout(() => {
+        setIsPlaying(false);
+      }, speed === 'native' ? 5000 : 10000);
+    } else {
+      // Fallback if speech synthesis not supported
+      setTimeout(() => setIsPlaying(false), 3000);
+    }
   };
 
   const handleNumpadClick = (num) => {
@@ -253,17 +317,28 @@ const NumberListeningTrainer = () => {
           </div>
           <div className="flex items-center justify-center gap-4 my-4">
             <button
-              onClick={playAudio}
+              onClick={() => playAudio('slow')}
+              disabled={isPlaying}
+              className={`w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center transition-all ${
+                isPlaying && playbackSpeed === 'slow' ? 'bg-green-500 animate-pulse' : 'bg-green-600 hover:bg-green-500 active:scale-95'
+              } touch-manipulation`}
+              title="Slow speed"
+            >
+              <span className="text-lg sm:text-xl">🐢</span>
+            </button>
+            <button
+              onClick={() => playAudio('native')}
               disabled={isPlaying}
               className={`w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center transition-all ${
-                isPlaying ? 'bg-red-500 animate-pulse' : 'bg-red-600 hover:bg-red-500 active:scale-95'
+                isPlaying && playbackSpeed === 'native' ? 'bg-red-500 animate-pulse' : 'bg-red-600 hover:bg-red-500 active:scale-95'
               } touch-manipulation`}
+              title="Native speed"
             >
-              <span className="text-xl sm:text-2xl">{isPlaying ? '🔊' : '▶️'}</span>
+              <span className="text-xl sm:text-2xl">{isPlaying && playbackSpeed === 'native' ? '🔊' : '▶️'}</span>
             </button>
           </div>
           <p className="text-center text-gray-400 text-sm">
-            {isPlaying ? 'Playing with city background noise...' : 'Tap to play'}
+            {isPlaying ? `Playing at ${playbackSpeed === 'native' ? 'native' : 'learner'} speed...` : 'Tap ▶️ for native speed, 🐢 for slow'}
           </p>
         </div>
 
@@ -316,11 +391,19 @@ const NumberListeningTrainer = () => {
           </div>
 
           <div className="grid grid-cols-2 gap-4 mb-6">
-            <button className="p-4 bg-blue-50 rounded-lg text-center hover:bg-blue-100 active:scale-95 transition-all touch-manipulation">
+            <button
+              onClick={() => playAudio('native')}
+              disabled={isPlaying}
+              className="p-4 bg-blue-50 rounded-lg text-center hover:bg-blue-100 active:scale-95 transition-all touch-manipulation"
+            >
               <span className="block text-2xl mb-2">🎙️</span>
               <span className="text-sm text-blue-800">Native Speed</span>
             </button>
-            <button className="p-4 bg-green-50 rounded-lg text-center hover:bg-green-100 active:scale-95 transition-all touch-manipulation">
+            <button
+              onClick={() => playAudio('slow')}
+              disabled={isPlaying}
+              className="p-4 bg-green-50 rounded-lg text-center hover:bg-green-100 active:scale-95 transition-all touch-manipulation"
+            >
               <span className="block text-2xl mb-2">🐢</span>
               <span className="text-sm text-green-800">Learner Speed</span>
             </button>
