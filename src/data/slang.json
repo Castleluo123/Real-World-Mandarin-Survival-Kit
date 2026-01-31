@@ -1,0 +1,162 @@
+[
+    {
+        "phrase": "呵呵",
+        "pinyin": "He He",
+        "literal": "Laughing sound",
+        "hidden_meaning": "I'm mocking you / Shut up.",
+        "risk_level": 5,
+        "usage_tip": "Avoid with bosses or strangers; it's seen as cold violence online."
+    },
+    {
+        "phrase": "您真行",
+        "pinyin": "Nín zhēn xíng",
+        "literal": "You are so capable",
+        "hidden_meaning": "You really messed up / Unbelievable (negatively).",
+        "risk_level": 4,
+        "usage_tip": "Used sarcastically when someone does something stupid."
+    },
+    {
+        "phrase": "改天",
+        "pinyin": "Gǎi tiān",
+        "literal": "Another day",
+        "hidden_meaning": "Never / I'm busy, don't ask again.",
+        "risk_level": 3,
+        "usage_tip": "When a Chinese person says 'Gaitian', don't wait for the invite."
+    },
+    {
+        "phrase": "在吗？",
+        "pinyin": "Zài ma?",
+        "literal": "Are you there?",
+        "hidden_meaning": "I have a favor to ask that might bother you.",
+        "risk_level": 3,
+        "usage_tip": "People hate getting this without the actual request following it."
+    },
+    {
+        "phrase": "没关系",
+        "pinyin": "Méi guānxi",
+        "literal": "It's okay",
+        "hidden_meaning": "Sometimes: 'I'm still mad, but I'm being polite.'",
+        "risk_level": 4,
+        "usage_tip": "Check their facial expression; if it's stiff, it's NOT okay."
+    },
+    {
+        "phrase": "牛逼",
+        "pinyin": "Niú bī",
+        "literal": "Cow's anatomy",
+        "hidden_meaning": "F***ing Awesome!",
+        "risk_level": 5,
+        "usage_tip": "Very vulgar. Great for close friends, fatal in formal meetings."
+    },
+    {
+        "phrase": "我靠",
+        "pinyin": "Wǒ kào",
+        "literal": "I lean (Euphemism)",
+        "hidden_meaning": "Holy sh*t! / WTF!",
+        "risk_level": 4,
+        "usage_tip": "Expresses extreme surprise or frustration."
+    },
+    {
+        "phrase": "随便",
+        "pinyin": "Suí biàn",
+        "literal": "Whatever / As you wish",
+        "hidden_meaning": "I'm annoyed, you decide but I'll probably be unhappy.",
+        "risk_level": 5,
+        "usage_tip": "High danger in romantic relationships."
+    },
+    {
+        "phrase": "那行吧",
+        "pinyin": "Nà xíng ba",
+        "literal": "That's fine then",
+        "hidden_meaning": "I'm reluctantly agreeing but I'm not satisfied.",
+        "risk_level": 3,
+        "usage_tip": "The particle 'ba' reveals the speaker's lingering hesitation."
+    },
+    {
+        "phrase": "奇葩",
+        "pinyin": "Qí pā",
+        "literal": "Rare flower",
+        "hidden_meaning": "A total weirdo / eccentric jerk.",
+        "risk_level": 4,
+        "usage_tip": "Nowadays 99% used as a negative label for people."
+    },
+    {
+        "phrase": "亲",
+        "pinyin": "Qīn",
+        "literal": "Dear / Pro",
+        "hidden_meaning": "Customer (Commercial politeness).",
+        "risk_level": 1,
+        "usage_tip": "Limited to Taobao customer service; creepy in real-life casual talk."
+    },
+    {
+        "phrase": "土豪",
+        "pinyin": "Tǔ háo",
+        "literal": "Rich landlord",
+        "hidden_meaning": "New money / Rich but lacks taste.",
+        "risk_level": 3,
+        "usage_tip": "Used for teasing friends who just bought something expensive."
+    },
+    {
+        "phrase": "绿茶",
+        "pinyin": "Lǜ chá",
+        "literal": "Green tea",
+        "hidden_meaning": "A manipulative woman acting innocent.",
+        "risk_level": 5,
+        "usage_tip": "Highly insulting label; use with extreme caution."
+    },
+    {
+        "phrase": "吃瓜",
+        "pinyin": "Chī guā",
+        "literal": "Eating melon",
+        "hidden_meaning": "Watching drama / Mindless gossiping.",
+        "risk_level": 1,
+        "usage_tip": "Neutral/Funny; describes being a bystander to drama."
+    },
+    {
+        "phrase": "算了吧",
+        "pinyin": "Suàn le ba",
+        "literal": "Forget it",
+        "hidden_meaning": "I'm disappointed and I've given up on you.",
+        "risk_level": 4,
+        "usage_tip": "Often the starting point of a 'Cold War' in a relationship."
+    },
+    {
+        "phrase": "你想多了",
+        "pinyin": "Nǐ xiǎng duō le",
+        "literal": "You think too much",
+        "hidden_meaning": "You're overthinking / You're delusional.",
+        "risk_level": 4,
+        "usage_tip": "Can sound gaslighting or arrogant depending on tone."
+    },
+    {
+        "phrase": "主打一个...",
+        "pinyin": "Zhǔ dǎ yí gè",
+        "literal": "Mainly featuring...",
+        "hidden_meaning": "The main vibe is... (Gen-Z buzzword).",
+        "risk_level": 1,
+        "usage_tip": "Very trendy; makes you sound like a social media expert."
+    },
+    {
+        "phrase": "逆天",
+        "pinyin": "Nì tiān",
+        "literal": "Against heaven",
+        "hidden_meaning": "Insane / Outrageous / Too much.",
+        "risk_level": 3,
+        "usage_tip": "Used to describe something so absurd it defies logic."
+    },
+    {
+        "phrase": "格局",
+        "pinyin": "Gé jú",
+        "literal": "Outlook / Layout",
+        "hidden_meaning": "Your mindset is too small.",
+        "risk_level": 4,
+        "usage_tip": "Often used by bosses to manipulate employees (PUA)."
+    },
+    {
+        "phrase": "卧槽",
+        "pinyin": "Wò cáo",
+        "literal": "(Swear word)",
+        "hidden_meaning": "F***! / Wow!",
+        "risk_level": 5,
+        "usage_tip": "The universal Chinese exclamation, but extremely crude."
+    }
+]
