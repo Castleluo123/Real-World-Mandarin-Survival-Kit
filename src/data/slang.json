@@ -158,5 +158,165 @@
         "hidden_meaning": "F***! / Wow!",
         "risk_level": 5,
         "usage_tip": "The universal Chinese exclamation, but extremely crude."
+    },
+    {
+        "phrase": "泼天的富贵",
+        "pinyin": "Pō tiān de fù guì",
+        "literal": "Overwhelming wealth from the sky",
+        "hidden_meaning": "Sudden, massive surge of traffic, wealth, or luck.",
+        "risk_level": 2,
+        "usage_tip": "Used to describe someone who suddenly goes viral or gets lucky. Positive but envious vibe."
+    },
+    {
+        "phrase": "尊嘟假嘟",
+        "pinyin": "Zūn dū jiǎ dū",
+        "literal": "Zundu Jiadu (Cute homophone)",
+        "hidden_meaning": "Is it real or fake? (Really?)",
+        "risk_level": 1,
+        "usage_tip": "Baby-talk style. Very cute and soft. Use it in casual chats with friends or on social media."
+    },
+    {
+        "phrase": "显眼包",
+        "pinyin": "Xiǎn yǎn bāo",
+        "literal": "Attention-seeker / Standout",
+        "hidden_meaning": "Someone who naturally attracts attention or loves to show off in a funny way.",
+        "risk_level": 2,
+        "usage_tip": "Mostly positive/teasing. Can be used for people, pets, or even quirky museum artifacts."
+    },
+    {
+        "phrase": "搭子",
+        "pinyin": "Dā zi",
+        "literal": "Partner / Companion",
+        "hidden_meaning": "A casual companion for a specific activity (e.g., meal buddy, gym buddy).",
+        "risk_level": 1,
+        "usage_tip": "Perfect for Gen-Z social contexts where you want companionship without deep emotional commitment."
+    },
+    {
+        "phrase": "特种兵式旅游",
+        "pinyin": "Tè zhǒng bīng shì lǚ yóu",
+        "literal": "Special Forces style traveling",
+        "hidden_meaning": "Extremely high-intensity, low-budget, and fast-paced travel.",
+        "risk_level": 1,
+        "usage_tip": "Used when you visit 3 cities in 2 days and walk 30,000 steps daily."
+    },
+    {
+        "phrase": "泰酷辣",
+        "pinyin": "Tài kù là",
+        "literal": "Too cool (Funny homophone)",
+        "hidden_meaning": "That's so cool!",
+        "risk_level": 2,
+        "usage_tip": "Originates from a singer's awkward speech. Used for self-mockery or exaggerated praise."
+    },
+    {
+        "phrase": "哈基米",
+        "pinyin": "Hā jī mǐ",
+        "literal": "Hajimi (from Japanese 'Hachimi')",
+        "hidden_meaning": "Cute pets or cute things.",
+        "risk_level": 1,
+        "usage_tip": "Often used as BGM or captions for cat/dog videos."
+    },
+    {
+        "phrase": "鸡哔你",
+        "pinyin": "Jī bì nǐ",
+        "literal": "Chick-kill you (Homophone for 'Shoot you')",
+        "hidden_meaning": "I'm gonna get you! (Playfully).",
+        "risk_level": 2,
+        "usage_tip": "Zero actual aggression. Purely for acting cute or joking around."
+    },
+    {
+        "phrase": "多巴胺穿搭",
+        "pinyin": "Duō bā àn chuān dā",
+        "literal": "Dopamine dressing",
+        "hidden_meaning": "Wearing bright, highly saturated colors to boost mood.",
+        "risk_level": 1,
+        "usage_tip": "Common in fashion contexts. Focuses on being colorful and happy."
+    },
+    {
+        "phrase": "村超",
+        "pinyin": "Cūn chāo",
+        "literal": "Village Super League",
+        "hidden_meaning": "Grassroots, non-professional but highly passionate sports events.",
+        "risk_level": 1,
+        "usage_tip": "Refers to the famous Guizhou rural soccer league. Represents authentic folk culture."
+    },
+    {
+        "phrase": "科目三",
+        "pinyin": "Kē mù sān",
+        "literal": "Subject 3 (Driving test)",
+        "hidden_meaning": "A viral, silky, rhythmic dance move.",
+        "risk_level": 2,
+        "usage_tip": "No relation to driving! Used when people start dancing the 'Subject 3' at weddings or Haidilao."
+    },
+    {
+        "phrase": "恐龙扛狼",
+        "pinyin": "Kǒng lóng káng láng",
+        "literal": "Dinosaur carrying a wolf (Nonsense homophone)",
+        "hidden_meaning": "Feeling speechless, funny, or having a song stuck in your head.",
+        "risk_level": 2,
+        "usage_tip": "Purely a viral brain-worm phrase. Use it when something is absurdly funny/catchy."
+    },
+    {
+        "phrase": "老默我想吃鱼了",
+        "pinyin": "Lǎo mò wǒ xiǎng chī yú le",
+        "literal": "Lao Mo, I want to eat fish",
+        "hidden_meaning": "Code for 'Go get rid of someone' or 'Time to take action'.",
+        "risk_level": 4,
+        "usage_tip": "Pop culture reference from 'The Knockout'. Use it jokingly to mean 'I'm gonna start trouble'."
+    },
+    {
+        "phrase": "质疑, 理解, 成为",
+        "pinyin": "Zhì yí, lǐ jiě, chéng wéi",
+        "literal": "Question, Understand, Become",
+        "hidden_meaning": "The 3 stages of changing your attitude towards something you once disliked.",
+        "risk_level": 2,
+        "usage_tip": "Commonly used for self-mockery, e.g., 'Questioning my parents, understanding them, becoming them'."
+    },
+    {
+        "phrase": "情绪价值",
+        "pinyin": "Qíng xù jià zhí",
+        "literal": "Emotional value",
+        "hidden_meaning": "The ability to provide comfort, stability, or happiness to others.",
+        "risk_level": 1,
+        "usage_tip": "Very popular in dating and workplace discussions. Everyone wants a high-value partner."
+    },
+    {
+        "phrase": "i人 / e人",
+        "pinyin": "i rén / e rén",
+        "literal": "I-person / E-person (MBTI)",
+        "hidden_meaning": "Introverts (i) vs. Extroverts (e).",
+        "risk_level": 1,
+        "usage_tip": "The most common social label in China right now. 'i' is the new 'socially anxious'."
+    },
+    {
+        "phrase": "早F晚E",
+        "pinyin": "Zǎo F wǎn E",
+        "literal": "Fighting in the morning, Emo at night",
+        "hidden_meaning": "Being energetic/motivated during the day but depressed/low at night.",
+        "risk_level": 2,
+        "usage_tip": "Relatable for young office workers struggling with mental burnout."
+    },
+    {
+        "phrase": "命运的齿轮",
+        "pinyin": "Mìng yùn de chǐ lún",
+        "literal": "Gears of fate",
+        "hidden_meaning": "A turning point that changes one's life forever.",
+        "risk_level": 1,
+        "usage_tip": "Used in nostalgic or inspirational videos to mark the 'exact moment' success started."
+    },
+    {
+        "phrase": "公主请XX",
+        "pinyin": "Gōng zhǔ qǐng XX",
+        "literal": "Princess, please XX",
+        "hidden_meaning": "A playful, pampered way to request or offer something.",
+        "risk_level": 2,
+        "usage_tip": "Used between couples or close friends to act 'extra' and cute."
+    },
+    {
+        "phrase": "电子榨菜",
+        "pinyin": "Diàn zǐ zhà cài",
+        "literal": "Digital pickles",
+        "hidden_meaning": "Videos or shows you watch specifically while eating.",
+        "risk_level": 1,
+        "usage_tip": "Pickles (Zha Cai) go well with rice; these videos go well with your meal."
     }
 ]
