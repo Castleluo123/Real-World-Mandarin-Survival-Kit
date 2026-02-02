@@ -318,5 +318,165 @@
         "hidden_meaning": "Videos or shows you watch specifically while eating.",
         "risk_level": 1,
         "usage_tip": "Pickles (Zha Cai) go well with rice; these videos go well with your meal."
+    },
+    {
+        "phrase": "打工人",
+        "pinyin": "Dǎ gōng rén",
+        "literal": "Laborer / Working person",
+        "hidden_meaning": "A self-deprecating term for office workers, implying hard work and resilience.",
+        "risk_level": 1,
+        "usage_tip": "Very safe and popular. Use it to show you are hardworking or to bond with other employees."
+    },
+    {
+        "phrase": "内卷",
+        "pinyin": "Nèi juǎn",
+        "literal": "Involution",
+        "hidden_meaning": "Irrational and excessive competition where everyone works harder but no one really wins.",
+        "risk_level": 2,
+        "usage_tip": "A hot topic in China's workplace. Use it to complain about unnecessary overtime."
+    },
+    {
+        "phrase": "躺平",
+        "pinyin": "Tǎng píng",
+        "literal": "Lying flat",
+        "hidden_meaning": "Choosing to do the bare minimum and not join the rat race.",
+        "risk_level": 2,
+        "usage_tip": "The opposite of 'Involution'. Use it when you want to opt-out of high-pressure social competition."
+    },
+    {
+        "phrase": "emo",
+        "pinyin": "emo",
+        "literal": "Emotional",
+        "hidden_meaning": "Feeling depressed, sad, or sentimental.",
+        "risk_level": 1,
+        "usage_tip": "Used widely by Gen-Z. 'I'm a bit emo' means 'I'm feeling down'."
+    },
+    {
+        "phrase": "绝绝子",
+        "pinyin": "Jué jué zi",
+        "literal": "Double-excellent",
+        "hidden_meaning": "Amazing! Fantastic! (Usually with an exaggerated tone).",
+        "risk_level": 2,
+        "usage_tip": "Hyper-feminine or 'internet influencer' vibe. Some people find this term annoying if overused."
+    },
+    {
+        "phrase": "yyds",
+        "pinyin": "yyds (Yǒng yuǎn de shén)",
+        "literal": "Eternal God",
+        "hidden_meaning": "The Greatest of All Time (GOAT).",
+        "risk_level": 1,
+        "usage_tip": "Acronym for 永远的神. Use it to praise your favorite idol, food, or brand."
+    },
+    {
+        "phrase": "真香",
+        "pinyin": "Zhēn xiāng",
+        "literal": "So fragrant / Smells good",
+        "hidden_meaning": "When you initially hate/reject something but eventually end up loving it.",
+        "risk_level": 1,
+        "usage_tip": "Refers to the 'Zhenxiang Law'—the inevitability of changing one's mind."
+    },
+    {
+        "phrase": "摆烂",
+        "pinyin": "Bǎi làn",
+        "literal": "Let it rot",
+        "hidden_meaning": "To give up on a deteriorating situation; to stop trying entirely.",
+        "risk_level": 3,
+        "usage_tip": "Self-deprecating when said by oneself, but can be an insult if used against others."
+    },
+    {
+        "phrase": "社恐",
+        "pinyin": "Shè kǒng",
+        "literal": "Social Phobia",
+        "hidden_meaning": "Socially anxious / Introverted (short for 社会恐惧症).",
+        "risk_level": 1,
+        "usage_tip": "Relates to the 'i人' concept. Very common way to decline party invitations."
+    },
+    {
+        "phrase": "社牛",
+        "pinyin": "Shè niú",
+        "literal": "Social Awesome-ness",
+        "hidden_meaning": "The opposite of social phobia; someone who is extremely outgoing and fearless.",
+        "risk_level": 1,
+        "usage_tip": "Relates to the 'e人' concept. A compliment for someone who makes friends easily."
+    },
+    {
+        "phrase": "干饭人",
+        "pinyin": "Gàn fàn rén",
+        "literal": "Meal-hacker / Heavy eater",
+        "hidden_meaning": "Someone who is passionate about eating and values their meals highly.",
+        "risk_level": 1,
+        "usage_tip": "Humorous and positive. Often used before a lunch break."
+    },
+    {
+        "phrase": "摸鱼",
+        "pinyin": "Mō yú",
+        "literal": "Touching fish",
+        "hidden_meaning": "Slacking off or doing personal things during work/study hours.",
+        "risk_level": 3,
+        "usage_tip": "Keep this between coworkers! Don't let the boss hear you're 'touching fish'."
+    },
+    {
+        "phrase": "吃瓜群众",
+        "pinyin": "Chī guā qún zhòng",
+        "literal": "Melon-eating masses",
+        "hidden_meaning": "Bystanders who just watch the drama/gossip without getting involved.",
+        "risk_level": 1,
+        "usage_tip": "Very safe. Used when you're just browsing comments on a viral post."
+    },
+    {
+        "phrase": "卷王",
+        "pinyin": "Juǎn wáng",
+        "literal": "King of Involution",
+        "hidden_meaning": "The person who works the hardest and forces others to work harder too.",
+        "risk_level": 3,
+        "usage_tip": "Can be a mix of 'respect' and 'annoyance' depending on the person's vibe."
+    },
+    {
+        "phrase": "塑料友情",
+        "pinyin": "Sù liào yǒu qíng",
+        "literal": "Plastic friendship",
+        "hidden_meaning": "Fake or fragile friendship that looks pretty on the surface but is cheap.",
+        "risk_level": 4,
+        "usage_tip": "Passive-aggressive. Use it to describe 'friends' who talk behind each other's backs."
+    },
+    {
+        "phrase": "工具人",
+        "pinyin": "Gōng jù rén",
+        "literal": "Tool person",
+        "hidden_meaning": "A person being used by others for favors without any real appreciation.",
+        "risk_level": 3,
+        "usage_tip": "Used to complain about being taken advantage of in relationships or at work."
+    },
+    {
+        "phrase": "天花板",
+        "pinyin": "Tiān huā bǎn",
+        "literal": "Ceiling",
+        "hidden_meaning": "The ultimate peak or highest level in a certain field.",
+        "risk_level": 1,
+        "usage_tip": "Use it to praise someone's skill: 'His coding is the ceiling of this team!'"
+    },
+    {
+        "phrase": "破防了",
+        "pinyin": "Pò fáng le",
+        "literal": "Defense broken",
+        "hidden_meaning": "When your emotional defenses are breached (by sadness, touching moments, or a harsh truth).",
+        "risk_level": 2,
+        "usage_tip": "Often used when someone is moved to tears by a story or a movie."
+    },
+    {
+        "phrase": "带节奏",
+        "pinyin": "Dài jié zòu",
+        "literal": "Leading the rhythm",
+        "hidden_meaning": "Manipulating public opinion or steering the conversation towards a specific (often biased) direction.",
+        "risk_level": 4,
+        "usage_tip": "Accusatory. Often used in online debates or when criticizing influencers."
+    },
+    {
+        "phrase": "吃瓜吃到自己家",
+        "pinyin": "Chī guā chī dào zì jǐ jiā",
+        "literal": "Eating a melon and finding it's your own house",
+        "hidden_meaning": "When you're enjoying gossip about someone else only to realize the drama is about yourself or your friends.",
+        "risk_level": 2,
+        "usage_tip": "A funny and slightly embarrassing realization."
     }
 ]
